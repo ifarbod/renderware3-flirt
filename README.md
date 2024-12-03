@@ -1,5 +1,7 @@
 # Renderware 3.x FLIRT signatures
 
+Tested in various versions of GTA San Andreas (RGL, Steam, 1.01, ...) - it can detect and rename up to ~2,500 functions.
+
 Use this script to apply all *.sig files. You can also put them in the `sig` folder in IDA's installation folder, this way, IDA will pick them up for new executables you open. (Though I don't recommend this method)
 
 ```py

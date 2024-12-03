@@ -30,7 +30,6 @@ def compare_snapshots(old_snapshot, new_snapshot):
             changes[addr] = (old_name, new_name)
     return changes
 
-# Example usage
 def main():
     # Take the initial snapshot
     old_snapshot = take_snapshot()
